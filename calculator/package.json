@@ -1,0 +1,20 @@
+{
+  "name": "calculator.js",
+  "version": "1.0.0",
+  "description": "a simple calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nyc": "^12.0.2"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "request": "^2.87.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
