@@ -19,5 +19,5 @@ let calculator;
          Then('should the result be {int}', function (total) {
            // Write code here that turns the phrase above into concrete actions
            //return 'pending';
-           expect(total).to.be.equal(4);
+           expect(calculator.result).to.be.equal(total);
          });

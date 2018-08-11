@@ -9,6 +9,10 @@ class Calculator {
         this.result = this.x + this.y;
     }
 
+    subtract() {
+        this.result = this.x - this.y;
+    }
+
 }
 
 module.exports = Calculator;
